@@ -33,6 +33,9 @@ section {
     background-position: center;
     background-repeat: no-repeat;
     background-size: 20vh;
+    -webkit-background-size: 20vh;
+    -o-background-size: 20vh;
+    -moz-background-size: 20vh;
 }
 
 #thisDiv, #thatDiv {
@@ -56,4 +59,7 @@ section {
     background-position: center;
     background-repeat: no-repeat;
     background-size: 20vh;
+    -webkit-background-size: 20vh;
+    -o-background-size: 20vh;
+    -moz-background-size: 20vh;
 }
