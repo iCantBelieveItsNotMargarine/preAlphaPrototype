@@ -51,6 +51,16 @@ section {
     opacity: 100%;
 }
 
+#thisDiv:hover, #thatDiv:hover {
+    background-color: grey;
+    color: orange;
+}
+
+#thisDiv:active, #thatDiv:active {
+    background-color: white;
+    color: black;
+}
+
 #sec2 {
     background-color: rgb(0, 128, 128, .75);
     width: 49.999vw;
