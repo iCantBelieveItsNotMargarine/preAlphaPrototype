@@ -1,0 +1,77 @@
+body {
+    background-color: black;
+    color: white;
+    margin: auto;
+    display: flex;
+}
+
+#containerDiv {
+    height: 100vh;
+    margin: auto;
+}
+
+#frameDiv {
+    height: 99.999vh;
+    margin: auto 0;
+    width: 75vw;
+    padding-top: 25vh;
+}
+
+section {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+#thatContainer {
+    background-color: rgb(255, 0, 255, .75);
+    width: 74.999vw;
+    height: 50vh;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fblog.thevap.com%2Fwp-content%2Fuploads%2F2014%2F06%2FScreen-Shot-2014-06-28-at-7.19.16-PM.png&f=1&nofb=1&ipt=0012d692e0ced69d177a17fa157e25a71050947e78ca6b00e9586f9a13438ffc&ipo=images);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20vh;
+    -webkit-background-size: 20vh;
+    -o-background-size: 20vh;
+    -moz-background-size: 20vh;
+    vertical-align: text-top;
+    display: flex;
+    /* the following and the preceeding 
+    work together to align text at the 
+    top center of the div, inconjuction with 
+    the styling in the '<section>' part of 
+    this */
+    align-items: flex-start;
+} 
+
+#backContainer {
+    justify-content: left;
+    display: flex;
+    align-items: left;
+    text-align: left;
+    margin: auto;
+}
+
+#backBtn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    border: 1px solid white;
+    border-radius: 4px;
+    color: grey;
+    background-color: black;
+    opacity: 100%;
+}
+
+#backBtn:hover {
+    background-color: grey;
+    color: orange;
+}
+
+#backBtn:active {
+    background-color: darkgrey;
+    color: purple;
+}
