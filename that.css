@@ -32,10 +32,10 @@ section {
     background-image: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fblog.thevap.com%2Fwp-content%2Fuploads%2F2014%2F06%2FScreen-Shot-2014-06-28-at-7.19.16-PM.png&f=1&nofb=1&ipt=0012d692e0ced69d177a17fa157e25a71050947e78ca6b00e9586f9a13438ffc&ipo=images);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 20vh;
-    -webkit-background-size: 20vh;
-    -o-background-size: 20vh;
-    -moz-background-size: 20vh;
+    background-size: 40vh;
+    -webkit-background-size: 40vh;
+    -o-background-size: 40vh;
+    -moz-background-size: 40vh;
     vertical-align: text-top;
     display: flex;
     /* the following and the preceeding 
