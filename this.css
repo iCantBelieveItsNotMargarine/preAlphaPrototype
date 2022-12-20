@@ -1,0 +1,76 @@
+body {
+    background-color: black;
+    color: white;
+    margin: auto;
+    display: flex;
+}
+
+#containerDiv {
+    height: 100vh;
+    margin: auto;
+}
+
+#frameDiv {
+    height: 99.999vh;
+    margin: auto 0;
+    width: 75vw;
+    padding-top: 25vh;
+}
+
+section {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+#thisContainer {
+    background-color: rgb(0, 128, 128, .75);
+    width: 74.999vw;
+    height: 50vh;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fd20khd7ddkh5ls.cloudfront.net%2Fdesmos-graph_2_18.png&f=1&nofb=1&ipt=af4168722e934cbc13a00258097ac4901e35c79d93cc70ddb91eb7885d35c976&ipo=images);    background-position: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20vh;
+    -webkit-background-size: 20vh;
+    -o-background-size: 20vh;
+    -moz-background-size: 20vh;
+    /* the following two lines 
+    work together to align text at the 
+    top center of the div, inconjuction with 
+    the styling in the '<section>' part of 
+    this */
+    display: flex;
+    align-items: flex-start;
+}
+
+#backContainer {
+    justify-content: left;
+    display: flex;
+    align-items: left;
+    text-align: left;
+    margin: auto;
+}
+
+#backBtn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    border: 1px solid white;
+    border-radius: 4px;
+    color: grey;
+    background-color: black;
+    opacity: 100%;
+}
+
+#backBtn:hover {
+    background-color: grey;
+    color: orange;
+}
+
+#backBtn:active {
+    background-color: darkgrey;
+    color: purple;
+}
