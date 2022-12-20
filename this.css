@@ -32,10 +32,10 @@ section {
     background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fd20khd7ddkh5ls.cloudfront.net%2Fdesmos-graph_2_18.png&f=1&nofb=1&ipt=af4168722e934cbc13a00258097ac4901e35c79d93cc70ddb91eb7885d35c976&ipo=images);    background-position: center;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 40vh;
-    -webkit-background-size: 40vh;
-    -o-background-size: 40vh;
-    -moz-background-size: 40vh;
+    background-size: 25vw;
+    -webkit-background-size: 25vw;
+    -o-background-size: 25vw;
+    -moz-background-size: 25vw;
     /* the following two lines 
     work together to align text at the 
     top center of the div, inconjuction with 
